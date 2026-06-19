@@ -9,6 +9,12 @@ This repo is the **developer entry point** for the G2 Reviews Scraper actor: the
 
 **▶ [Run it on Apify →](https://apify.com/factden/g2-reviews-scraper)**
 
+<p align="center">
+  <a href="https://apify.com/factden/g2-reviews-scraper">
+    <img src="https://raw.githubusercontent.com/factden/apify-actor-assets/main/g2-reviews-scraper/02-output-tab-reviews-overview.png" alt="G2 Reviews Scraper output — structured review rows" width="900">
+  </a>
+</p>
+
 ---
 
 ## What it extracts
@@ -23,6 +29,11 @@ Two modes, one actor:
 🏆 **Ranked top‑10 competitors per product** — mined from each reviewer's switching‑from data and resolved to real product names (not opaque IDs). Battlecard‑ready, no aggregation code.
 
 🤖 **LLM‑ready `markdownContent` per review** — a self‑contained markdown block, ready for direct vector‑DB / RAG ingestion with zero formatting work.
+
+|  |  |
+|---|---|
+| ![Ranked top-10 competitors per product](https://raw.githubusercontent.com/factden/apify-actor-assets/main/g2-reviews-scraper/04-products-top-competitors.png) | ![LLM-ready markdown field](https://raw.githubusercontent.com/factden/apify-actor-assets/main/g2-reviews-scraper/05-ai-ingest-markdown.png) |
+| Ranked top‑10 competitors per product | LLM‑ready `markdownContent` field |
 
 ---
 
