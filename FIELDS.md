@@ -14,12 +14,12 @@ The G2 Reviews Scraper produces two row types. **Reviews mode** emits review row
 | `companySize` | string | Company size bucket (e.g. "Mid‑Market", "Enterprise", "Small‑Business"). |
 | `reviewerCountry` | string \| null | Reviewer country. |
 | `overallRating` | number | Overall star rating, 1–5. |
-| `easeOfUse` | number \| null | Sub‑rating, 1–5 (reviewers may skip). |
-| `easeOfSetup` | number \| null | Sub‑rating, 1–5. |
-| `easeOfAdmin` | number \| null | Sub‑rating, 1–5. |
-| `easeOfDoingBusinessWith` | number \| null | Sub‑rating, 1–5. |
-| `meetsRequirements` | number \| null | Sub‑rating, 1–5. |
-| `qualityOfSupport` | number \| null | Sub‑rating, 1–5. |
+| `easeOfUse` | number \| null | Sub‑rating, 1–7 (reviewers may skip). |
+| `easeOfSetup` | number \| null | Sub‑rating, 1–7. |
+| `easeOfAdmin` | number \| null | Sub‑rating, 1–7. |
+| `easeOfDoingBusinessWith` | number \| null | Sub‑rating, 1–7. |
+| `meetsRequirements` | number \| null | Sub‑rating, 1–7. |
+| `qualityOfSupport` | number \| null | Sub‑rating, 1–7. |
 | `reviewTitle` | string | The review headline. |
 | `pros` | string | What the reviewer liked (structured answer). |
 | `cons` | string | What the reviewer disliked. |
