@@ -65,6 +65,8 @@ Real sample output lives in **[`examples/`](./examples)**:
 - [`examples/products-output.sample.json`](./examples/products-output.sample.json) — product rows with ranked `topCompetitors`
 - [`examples/input.json`](./examples/input.json) — Reviews‑mode input · [`examples/input-products.json`](./examples/input-products.json) — Products‑mode input
 
+📊 **Full 500-review sample dataset** (5 products, download-ready CSV / JSON / JSONL): **[HuggingFace](https://huggingface.co/datasets/fact-den/g2-team-collaboration-reviews-sample)** · **[Kaggle](https://www.kaggle.com/datasets/factden/g2-team-collaboration-reviews-sample)**.
+
 Every field is documented in **[`FIELDS.md`](./FIELDS.md)**. From Apify you can download results as **JSON, CSV, Excel, or HTML**.
 
 ---
