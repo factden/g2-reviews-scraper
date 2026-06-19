@@ -1,14 +1,14 @@
 # How to scrape G2 reviews (the easy way)
 
-Scraping G2 directly is painful: anti‑bot defenses, login walls, rotating proxies, and CAPTCHAs. This guide skips all of that by using the [G2 Reviews Scraper](https://apify.com/factden/g2-reviews-scraper) actor on Apify — no login, no proxy setup, no anti‑bot tuning.
+Scraping G2 directly is painful: anti‑bot defenses, login walls, rotating proxies, and CAPTCHAs. This guide skips all of that by using the [G2 Reviews Scraper](https://apify.com/factden/g2-reviews-scraper?fpr=factden) actor on Apify — no login, no proxy setup, no anti‑bot tuning.
 
 ## 1. Get an Apify token
 
-Create a free [Apify](https://apify.com/) account and copy your API token from **Settings → Integrations**. New accounts include $5 of free credit (~1,250 rows).
+Create a free [Apify](https://console.apify.com/sign-up?fpr=factden) account and copy your API token from **Settings → Integrations**. New accounts include $5 of free credit (~1,250 rows).
 
 ## 2. Run it from the Console (no code)
 
-1. Open the [actor page](https://apify.com/factden/g2-reviews-scraper) and click **Try for free**.
+1. Open the [actor page](https://apify.com/factden/g2-reviews-scraper?fpr=factden) and click **Try for free**.
 2. The input is pre‑filled with two examples — a full G2 URL and a bare slug. Leave them or replace with your own products.
 3. Click **Start**. A small run finishes in ~15 seconds.
 4. Download results from the **Output** tab as JSON, CSV, or Excel.
@@ -60,4 +60,4 @@ docs = [row["markdownContent"] for row in items]
 
 ---
 
-**▶ [Run the G2 Reviews Scraper on Apify →](https://apify.com/factden/g2-reviews-scraper)**
+**▶ [Run the G2 Reviews Scraper on Apify →](https://apify.com/factden/g2-reviews-scraper?fpr=factden)**

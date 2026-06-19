@@ -1,17 +1,17 @@
 # G2 Reviews Scraper
 
-> Extract public **G2 reviews** and **product data** at scale — with **ranked top‑10 competitors per product** and an **LLM‑ready markdown field** for direct RAG ingestion. Runs on [Apify](https://apify.com/factden/g2-reviews-scraper).
+> Extract public **G2 reviews** and **product data** at scale — with **ranked top‑10 competitors per product** and an **LLM‑ready markdown field** for direct RAG ingestion. Runs on [Apify](https://apify.com/factden/g2-reviews-scraper?fpr=factden).
 
-[![Run on Apify](https://img.shields.io/badge/Run%20on-Apify-00b04f?logo=apify&logoColor=white)](https://apify.com/factden/g2-reviews-scraper)
+[![Run on Apify](https://img.shields.io/badge/Run%20on-Apify-00b04f?logo=apify&logoColor=white)](https://apify.com/factden/g2-reviews-scraper?fpr=factden)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 
 This repo is the **developer entry point** for the G2 Reviews Scraper actor: the output shape, copy‑paste API snippets, a full [field dictionary](./FIELDS.md), and a short [how‑to](./HOWTO.md). The actor itself runs on Apify — no login, proxy, or anti‑bot setup required.
 
-**▶ [Run it on Apify →](https://apify.com/factden/g2-reviews-scraper)**
+**▶ [Run it on Apify →](https://apify.com/factden/g2-reviews-scraper?fpr=factden)**
 
 <p align="center">
-  <a href="https://apify.com/factden/g2-reviews-scraper">
-    <img src="https://raw.githubusercontent.com/factden/apify-actor-assets/main/g2-reviews-scraper/02-output-tab-reviews-overview.png" alt="G2 Reviews Scraper output — structured review rows" width="900">
+  <a href="https://apify.com/factden/g2-reviews-scraper?fpr=factden" rel="sponsored noopener">
+    <img src="https://raw.githubusercontent.com/factden/apify-actor-assets/main/g2-reviews-scraper/social-preview.png" alt="G2 Reviews Scraper — sample review row with 32 structured fields" width="900">
   </a>
 </p>
 
@@ -80,7 +80,7 @@ Every field is documented in **[`FIELDS.md`](./FIELDS.md)**. From Apify you can 
 
 ## How much does it cost?
 
-Pay‑per‑event on Apify: **$0.01 per run + $0.004 per row**. New Apify accounts get **$5 in free credit** (~1,250 rows). See the [actor page](https://apify.com/factden/g2-reviews-scraper) for current pricing.
+Pay‑per‑event on Apify: **$0.01 per run + $0.004 per row**. New Apify accounts get **$5 in free credit** (~1,250 rows). See the [actor page](https://apify.com/factden/g2-reviews-scraper?fpr=factden) for current pricing.
 
 ---
 
@@ -90,15 +90,15 @@ Pay‑per‑event on Apify: **$0.01 per run + $0.004 per row**. New Apify accoun
 
 **Do I need a G2 account or proxies?** No. Everything runs inside the actor on Apify's infrastructure.
 
-**Found a bug or want a field added?** Open an issue here, or use the **Issues** tab on the [Apify actor page](https://apify.com/factden/g2-reviews-scraper).
+**Found a bug or want a field added?** Open an issue here, or use the **Issues** tab on the [Apify actor page](https://apify.com/factden/g2-reviews-scraper?fpr=factden).
 
 ---
 
 ## Other scrapers by FactDen
 
-- [Ctrip / Trip.com Reviews Scraper](https://apify.com/factden/ctrip-trip-reviews-scraper)
-- [Indeed Jobs Scraper](https://apify.com/factden/indeed-jobs-scraper)
-- [All FactDen actors →](https://apify.com/factden)
+- [Ctrip / Trip.com Reviews Scraper](https://apify.com/factden/ctrip-trip-reviews-scraper?fpr=factden)
+- [Indeed Jobs Scraper](https://apify.com/factden/indeed-jobs-scraper?fpr=factden)
+- [All FactDen actors →](https://apify.com/factden?fpr=factden)
 
 ---
 
