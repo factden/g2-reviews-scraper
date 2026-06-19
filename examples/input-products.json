@@ -1,0 +1,6 @@
+{
+  "mode": "products",
+  "searchQuery": "communication",
+  "maxProducts": 25,
+  "proxyConfiguration": { "useApifyProxy": true }
+}

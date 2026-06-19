@@ -62,7 +62,8 @@ A few illustrative rows live in **[`examples/`](./examples)**:
 
 - [`examples/reviews-output.sample.json`](./examples/reviews-output.sample.json) — review rows (Reviews mode)
 - [`examples/products-output.sample.json`](./examples/products-output.sample.json) — product rows (Products mode)
-- [`examples/input.json`](./examples/input.json) — input format
+- [`examples/input.json`](./examples/input.json) — Reviews‑mode input
+- [`examples/input-products.json`](./examples/input-products.json) — Products‑mode input
 
 Every field is documented in **[`FIELDS.md`](./FIELDS.md)**. From Apify you can download results as **JSON, CSV, Excel, or HTML**.
 
