@@ -1,0 +1,13 @@
+{
+  "mode": "reviews",
+  "startUrls": [
+    "https://www.g2.com/products/slack/reviews",
+    "notion"
+  ],
+  "maxReviewsPerProduct": 100,
+  "minRating": 1,
+  "maxRating": 5,
+  "sortReviews": "newest",
+  "verifiedReviewer": false,
+  "proxyConfiguration": { "useApifyProxy": true }
+}

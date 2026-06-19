@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "slack",
+    "name": "Slack",
+    "id": "example-product-slack",
+    "url": "https://www.g2.com/products/slack",
+    "vendorName": "Salesforce",
+    "type": "software",
+    "categoryNames": ["Business Instant Messaging", "Team Collaboration"],
+    "categoryPrimary": "Business Instant Messaging",
+    "averageRating": 4.5,
+    "starRating": 4.5,
+    "reviewCount": 34000,
+    "matchingFilterTotal": 34000,
+    "reviewsExtracted": 100,
+    "completenessPct": 0.3,
+    "topCompetitors": ["Microsoft Teams", "Google Chat", "Discord", "Mattermost", "Zoom Workplace"],
+    "extractedAt": "2026-06-19T09:00:00.000Z"
+  },
+  {
+    "slug": "notion",
+    "name": "Notion",
+    "id": "example-product-notion",
+    "url": "https://www.g2.com/products/notion",
+    "vendorName": "Notion Labs",
+    "type": "software",
+    "categoryNames": ["Knowledge Base", "Project Management", "Note-Taking"],
+    "categoryPrimary": "Knowledge Base",
+    "averageRating": 4.7,
+    "starRating": 4.5,
+    "reviewCount": 6000,
+    "matchingFilterTotal": 6000,
+    "reviewsExtracted": 100,
+    "completenessPct": 1.7,
+    "topCompetitors": ["Confluence", "Evernote", "Coda", "Obsidian", "Microsoft OneNote"],
+    "extractedAt": "2026-06-19T09:00:00.000Z"
+  }
+]
