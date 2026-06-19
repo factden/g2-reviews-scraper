@@ -58,12 +58,12 @@ More: **[Python](./snippets/run_actor.py)** · **[Node](./snippets/run_actor.js)
 
 ## Output
 
-A few illustrative rows live in **[`examples/`](./examples)**:
+Real sample output lives in **[`examples/`](./examples)**:
 
-- [`examples/reviews-output.sample.json`](./examples/reviews-output.sample.json) — review rows (Reviews mode)
-- [`examples/products-output.sample.json`](./examples/products-output.sample.json) — product rows (Products mode)
-- [`examples/input.json`](./examples/input.json) — Reviews‑mode input
-- [`examples/input-products.json`](./examples/input-products.json) — Products‑mode input
+- [`examples/reviews-sample-100.csv`](./examples/reviews-sample-100.csv) — **100 real review rows** (Slack, Microsoft Teams, Zoom, Google Workspace, Trello) — browse it right in GitHub's table view
+- [`examples/reviews-output.sample.json`](./examples/reviews-output.sample.json) — 2 review rows showing the full field shape (incl. `markdownContent`)
+- [`examples/products-output.sample.json`](./examples/products-output.sample.json) — product rows with ranked `topCompetitors`
+- [`examples/input.json`](./examples/input.json) — Reviews‑mode input · [`examples/input-products.json`](./examples/input-products.json) — Products‑mode input
 
 Every field is documented in **[`FIELDS.md`](./FIELDS.md)**. From Apify you can download results as **JSON, CSV, Excel, or HTML**.
 
@@ -102,4 +102,4 @@ Pay‑per‑event on Apify: **$0.01 per run + $0.004 per row**. New Apify accoun
 
 ---
 
-_The example data in this repo is illustrative, for documenting the output shape. Run the actor on Apify for live G2 data._
+_The sample data in this repo is real public G2 review data, collected with the actor and provided for documentation/evaluation. Run the actor on Apify to pull data for any product, at any scale._
