@@ -99,8 +99,16 @@ Pay‑per‑event on Apify: **$0.01 per run + $0.004 per row**. New Apify accoun
 ## Other scrapers by FactDen
 
 - [Ctrip / Trip.com Reviews Scraper](https://apify.com/factden/ctrip-trip-reviews-scraper?fpr=factden)
+  ([docs](https://github.com/factden/ctrip-trip-reviews-scraper))
 - [Indeed Jobs Scraper](https://apify.com/factden/indeed-jobs-scraper?fpr=factden)
+  ([docs](https://github.com/factden/indeed-jobs-scraper))
 - [All FactDen actors →](https://apify.com/factden?fpr=factden)
+
+**Docs & guides:**
+
+- [How to scrape G2 reviews](https://factden.com/blog/how-to-scrape-g2-reviews)
+- [Best G2 review scraper compared](https://factden.com/blog/best-g2-review-scraper-compared)
+- [factden.com](https://factden.com)
 
 ---
 
