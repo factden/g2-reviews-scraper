@@ -11,7 +11,7 @@ This repo is the **developer entry point** for the G2 Reviews Scraper actor: the
 
 <p align="center">
   <a href="https://apify.com/factden/g2-reviews-scraper?fpr=factden" rel="sponsored noopener">
-    <img src="https://raw.githubusercontent.com/factden/apify-actor-assets/main/g2-reviews-scraper/social-preview.png" alt="G2 Reviews Scraper — sample review row with 32 structured fields" width="900">
+    <img src="https://raw.githubusercontent.com/factden/apify-actor-assets/main/g2-reviews-scraper/social-preview.png" alt="G2 Reviews Scraper — sample review row with 27 structured fields" width="900">
   </a>
 </p>
 
@@ -21,7 +21,7 @@ This repo is the **developer entry point** for the G2 Reviews Scraper actor: the
 
 Two modes, one actor:
 
-- **Reviews mode** — give it G2 product URLs (or bare slugs like `slack`) and get every public review as a clean, structured row: **32 fields** including 6 sub‑ratings, structured `pros` / `cons` / `problemsSolved`, switching history with **named competitors**, reviewer industry / role / company size / country, and an LLM‑ready `markdownContent` field.
+- **Reviews mode** — give it G2 product URLs (or bare slugs like `slack`) and get every public review as a clean, structured row: **27 fields** including a nested `subRatings` dict (the sub‑ratings the reviewer gave), structured `pros` / `cons` / `problemsSolved`, switching history with **named competitors**, reviewer industry / role / company size / country, and an LLM‑ready `markdownContent` field.
 - **Products mode** — give it a keyword (e.g. `CRM`, `communication`, `project management`) and get the top matching products with metadata — competitor discovery before you pull reviews.
 
 ### Two things you won't find in other G2 scrapers

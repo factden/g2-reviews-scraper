@@ -1,8 +1,8 @@
 # Output fields
 
-The G2 Reviews Scraper produces two row types. **Reviews mode** emits review rows (32 fields). **Products mode** emits product rows (16 fields). In Reviews mode you also get a per‑product summary row with the product fields populated.
+The G2 Reviews Scraper produces two row types. **Reviews mode** emits review rows (27 fields). **Products mode** emits product rows (16 fields). In Reviews mode you also get a per‑product summary row with the product fields populated.
 
-## Review fields (Reviews mode — 32)
+## Review fields (Reviews mode — 27)
 
 | Field | Type | Description |
 |---|---|---|
@@ -14,12 +14,7 @@ The G2 Reviews Scraper produces two row types. **Reviews mode** emits review row
 | `companySize` | string | Company size bucket (e.g. "Mid‑Market", "Enterprise", "Small‑Business"). |
 | `reviewerCountry` | string \| null | Reviewer country. |
 | `overallRating` | number | Overall star rating, 1–5. |
-| `easeOfUse` | number \| null | Sub‑rating, 1–7 (reviewers may skip). |
-| `easeOfSetup` | number \| null | Sub‑rating, 1–7. |
-| `easeOfAdmin` | number \| null | Sub‑rating, 1–7. |
-| `easeOfDoingBusinessWith` | number \| null | Sub‑rating, 1–7. |
-| `meetsRequirements` | number \| null | Sub‑rating, 1–7. |
-| `qualityOfSupport` | number \| null | Sub‑rating, 1–7. |
+| `subRatings` | object | Nested dict of the sub‑ratings the reviewer gave, each 1–7: any of `easeOfUse`, `easeOfSetup`, `easeOfAdmin`, `easeOfDoingBusinessWith`, `meetsRequirements`, `qualityOfSupport`. Dimensions the reviewer skipped are omitted (not null), so the key set varies per review. CSV/Excel exports flatten present keys to `subRatings/easeOfUse` etc. |
 | `reviewTitle` | string | The review headline. |
 | `pros` | string | What the reviewer liked (structured answer). |
 | `cons` | string | What the reviewer disliked. |
