@@ -37,6 +37,10 @@ See [`snippets/`](./snippets) for Node and curl versions.
 - **Reviews mode** — you know the products. Pass G2 URLs or slugs in `startUrls`.
 - **Products mode** — you want to discover products in a category. Set `mode: "products"` and a `searchQuery` like `"CRM"`.
 
+> **Slugs are matched exactly.** If a G2 product was renamed or removed, that entry is reported as
+> "not found" and skipped (other inputs still run). Use the product's current slug, or **Products
+> mode** to find it by keyword.
+
 ## 5. Useful input options
 
 | Option | What it does |
