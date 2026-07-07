@@ -44,7 +44,7 @@ See [`snippets/`](./snippets) for Node and curl versions.
 | `maxReviewsPerProduct` | Cap reviews per product (controls cost). |
 | `fromDate` / `toDate` | Only reviews in a date window. |
 | `minRating` / `maxRating` | Filter by star rating. |
-| `sortReviews` | `newest`, `oldest`, `most_helpful`. |
+| `sortReviews` | `newest`, `helpful`, `rating_high`, `rating_low`. |
 | `verifiedReviewer` | Only verified reviewers. |
 
 Full field reference: [`FIELDS.md`](./FIELDS.md). Full input format: [`examples/input.json`](./examples/input.json).
