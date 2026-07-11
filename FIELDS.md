@@ -1,6 +1,6 @@
 # Output fields
 
-The G2 Reviews Scraper produces two row types. **Reviews mode** emits review rows (27 fields). **Products mode** emits product rows (16 fields). In Reviews mode you also get a per‑product summary row with the product fields populated.
+The G2 Reviews Scraper produces two row types. **Reviews mode** emits review rows (27 fields). **Products mode** emits product rows (18 fields). In Reviews mode you also get a per‑product summary row with the product fields populated.
 
 ## Review fields (Reviews mode — 27)
 
@@ -38,7 +38,9 @@ The G2 Reviews Scraper produces two row types. **Reviews mode** emits review row
 
 | Field | Type | Description |
 |---|---|---|
-| `slug` | string | G2 product slug. |
+| `slug` | string | Canonical G2 product slug of the resolved product. Differs from `requestedSlug` when `matchType` is `closest`. |
+| `requestedSlug` | string | The slug/URL you actually requested. Equals `slug` on an exact match; preserved when the scraper auto‑matched a close slug. |
+| `matchType` | string | `exact` = your slug resolved directly. `closest` = your slug missed and the highest‑confidence matching product was substituted (see `slug`). Re‑run with the exact slug/URL to override. |
 | `name` | string | Product display name. |
 | `id` | string | G2 product identifier. |
 | `url` | string | G2 product page URL. |

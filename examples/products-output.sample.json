@@ -1,6 +1,8 @@
 [
   {
     "slug": "slack",
+    "requestedSlug": "slack",
+    "matchType": "exact",
     "name": "Slack",
     "id": 3437,
     "url": "https://www.g2.com/products/slack",
@@ -37,6 +39,8 @@
   },
   {
     "slug": "microsoft-teams",
+    "requestedSlug": "microsoft-teams",
+    "matchType": "exact",
     "name": "Microsoft Teams",
     "id": 25592,
     "url": "https://www.g2.com/products/microsoft-teams",
@@ -68,6 +72,8 @@
   },
   {
     "slug": "zoom-workplace",
+    "requestedSlug": "zoom-workplace",
+    "matchType": "exact",
     "name": "Zoom Workplace",
     "id": 7372,
     "url": "https://www.g2.com/products/zoom-workplace",
@@ -110,6 +116,8 @@
   },
   {
     "slug": "google-workspace",
+    "requestedSlug": "google-workspace",
+    "matchType": "exact",
     "name": "Google Workspace",
     "id": 1434,
     "url": "https://www.g2.com/products/google-workspace",
@@ -146,6 +154,8 @@
   },
   {
     "slug": "trello",
+    "requestedSlug": "trello",
+    "matchType": "exact",
     "name": "Trello",
     "id": 350,
     "url": "https://www.g2.com/products/trello",
