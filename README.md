@@ -82,7 +82,7 @@ Every field is documented in **[`FIELDS.md`](./FIELDS.md)**. From Apify you can 
 
 ## How much does it cost?
 
-Pay‑per‑event on Apify: **$0.01 per run + $0.004 per row**. New Apify accounts get **$5 in free credit** (~1,250 rows). See the [actor page](https://apify.com/factden/g2-reviews-scraper?fpr=factden) for current pricing.
+Pay‑per‑event on Apify: **$0.004 per row, no per-run start fee**. New Apify accounts get **$5 in free credit** (~1,250 rows). See the [actor page](https://apify.com/factden/g2-reviews-scraper?fpr=factden) for current pricing.
 
 ---
 
