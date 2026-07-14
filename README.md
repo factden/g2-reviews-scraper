@@ -115,3 +115,5 @@ Pay‑per‑event on Apify: **$0.004 per row, no per-run start fee**. New Apify 
 ---
 
 _The sample data in this repo is real public G2 review data, collected with the actor and provided for documentation/evaluation. Run the actor on Apify to pull data for any product, at any scale._
+
+_Found this useful? A star on this repo helps other people find it._
