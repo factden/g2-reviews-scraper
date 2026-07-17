@@ -1,6 +1,6 @@
 # Output fields
 
-The G2 Reviews Scraper produces two row types. **Reviews mode** emits review rows (27 fields). **Products mode** emits product rows (18 fields). In Reviews mode you also get a per‑product summary row with the product fields populated.
+The G2 Reviews Scraper produces two row types. **Reviews mode** emits review rows (27 fields). **Products mode** emits product rows (20 fields). In Reviews mode you also get a per‑product summary row with the product fields populated.
 
 ## Review fields (Reviews mode — 27)
 
@@ -40,7 +40,9 @@ The G2 Reviews Scraper produces two row types. **Reviews mode** emits review row
 |---|---|---|
 | `slug` | string | Canonical G2 product slug of the resolved product. Differs from `requestedSlug` when `matchType` is `closest`. |
 | `requestedSlug` | string | The slug/URL you actually requested. Equals `slug` on an exact match; preserved when the scraper auto‑matched a close slug. |
-| `matchType` | string | `exact` = your slug resolved directly. `closest` = your slug missed and the highest‑confidence matching product was substituted (see `slug`). Re‑run with the exact slug/URL to override. |
+| `matchType` | string | `exact` = your slug resolved directly. `closest` = your slug missed and the highest‑confidence matching product was substituted (see `slug`). `alias` = your slug is a known rebrand mapped to the correct product. Re‑run with the exact slug/URL to override. |
+| `resolutionNote` | string | Plain‑language note when the slug was auto‑resolved (`closest` / `alias`): which product it matched, its review count, and how to override. `null` on an exact match. |
+| `alternativeMatches` | array<string> | Other G2 slugs that share a whole word with your requested slug — the runner‑up products to re‑run with if the auto‑match picked the wrong one. Empty on an exact match. |
 | `name` | string | Product display name. |
 | `id` | string | G2 product identifier. |
 | `url` | string | G2 product page URL. |
