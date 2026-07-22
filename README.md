@@ -98,6 +98,8 @@ Pay‑per‑event on Apify: **$0.004 per row, no per-run start fee**. New Apify 
 
 ## Other scrapers by FactDen
 
+- [Google Hotels Scraper](https://apify.com/factden/google-hotels-scraper?fpr=factden)
+  ([docs](https://github.com/factden/google-hotels-scraper))
 - [Ctrip / Trip.com Reviews Scraper](https://apify.com/factden/ctrip-trip-reviews-scraper?fpr=factden)
   ([docs](https://github.com/factden/ctrip-trip-reviews-scraper))
 - [Indeed Jobs Scraper](https://apify.com/factden/indeed-jobs-scraper?fpr=factden)
