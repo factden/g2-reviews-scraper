@@ -106,6 +106,8 @@ Pay‑per‑event on Apify: **$0.004 per row, no per-run start fee**. New Apify 
   ([docs](https://github.com/factden/indeed-jobs-scraper))
 - [Expedia Hotel Reviews Scraper](https://apify.com/factden/expedia-hotel-reviews-scraper?fpr=factden)
   ([docs](https://github.com/factden/expedia-hotel-reviews-scraper))
+- [TripAdvisor Hotel Reviews API](https://apify.com/factden/tripadvisor-hotel-reviews-api?fpr=factden)
+  ([docs](https://github.com/factden/tripadvisor-hotel-reviews-api))
 - [All FactDen actors →](https://apify.com/factden?fpr=factden)
 
 **Docs & guides:**
