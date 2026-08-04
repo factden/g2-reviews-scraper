@@ -108,6 +108,7 @@ Pay‑per‑event on Apify: **$0.004 per row, no per-run start fee**. New Apify 
   ([docs](https://github.com/factden/expedia-hotel-reviews-scraper))
 - [TripAdvisor Hotel Reviews API](https://apify.com/factden/tripadvisor-hotel-reviews-api?fpr=factden)
   ([docs](https://github.com/factden/tripadvisor-hotel-reviews-api))
+- [Airbnb Data Scraper](https://apify.com/factden/airbnb-data-scraper?fpr=factden) ([docs](https://github.com/factden/airbnb-data-scraper)) - Airbnb listings, prices, availability, occupancy, ADR/RevPAR & reviews; a pay-per-use AirDNA alternative.
 - [All FactDen actors →](https://apify.com/factden?fpr=factden)
 
 **Docs & guides:**
