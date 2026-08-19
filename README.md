@@ -98,6 +98,7 @@ Pay‑per‑event on Apify: **$0.004 per row, no per-run start fee**. New Apify 
 
 ## Other scrapers by FactDen
 
+- [Booking.com Scraper](https://apify.com/factden/booking-com-scraper?fpr=factden) - hotels, live prices, per-room rates, availability & occupancy, and guest reviews across a whole city or one hotel ([docs](https://github.com/factden/booking-com-scraper))
 - [MCA India Company & Director Data Scraper](https://apify.com/factden/mca-company-director-scraper?fpr=factden) - India MCA company master + directors' personal email & phone
 - [Google Hotels Scraper](https://apify.com/factden/google-hotels-scraper?fpr=factden)
   ([docs](https://github.com/factden/google-hotels-scraper))
