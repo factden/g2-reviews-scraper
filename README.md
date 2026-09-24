@@ -98,21 +98,9 @@ Pay‑per‑event on Apify: **$0.004 per row**, plus a small $0.005 per-run star
 
 ## Other scrapers by FactDen
 
-- [Booking.com Scraper](https://apify.com/factden/booking-com-scraper?fpr=factden) - hotels, live prices, per-room rates, availability & occupancy, and guest reviews across a whole city or one hotel ([docs](https://github.com/factden/booking-com-scraper))
-- [MCA India Company & Director Data Scraper](https://apify.com/factden/mca-company-director-scraper?fpr=factden) - India MCA company master + directors' personal email & phone
-- [Google Hotels Scraper](https://apify.com/factden/google-hotels-scraper?fpr=factden)
-  ([docs](https://github.com/factden/google-hotels-scraper))
-- [Ctrip / Trip.com Reviews Scraper](https://apify.com/factden/ctrip-trip-reviews-scraper?fpr=factden)
-  ([docs](https://github.com/factden/ctrip-trip-reviews-scraper))
-- [Indeed Jobs Scraper](https://apify.com/factden/indeed-jobs-scraper?fpr=factden)
-  ([docs](https://github.com/factden/indeed-jobs-scraper))
-- [Expedia Hotel Reviews Scraper](https://apify.com/factden/expedia-hotel-reviews-scraper?fpr=factden)
-  ([docs](https://github.com/factden/expedia-hotel-reviews-scraper))
-- [TripAdvisor Hotel Reviews API](https://apify.com/factden/tripadvisor-hotel-reviews-api?fpr=factden)
-  ([docs](https://github.com/factden/tripadvisor-hotel-reviews-api))
-- [Airbnb Data Scraper](https://apify.com/factden/airbnb-data-scraper?fpr=factden) ([docs](https://github.com/factden/airbnb-data-scraper)) - Airbnb listings, prices, availability, occupancy, ADR/RevPAR & reviews; a pay-per-use AirDNA alternative.
-- [Agoda Hotel Reviews Scraper](https://apify.com/factden/agoda-hotel-reviews-scraper?fpr=factden)
-  ([docs](https://github.com/factden/agoda-hotel-reviews-scraper))
+- [MCA India Company & Director Data Scraper](https://apify.com/factden/mca-company-director-scraper?fpr=factden) ([docs](https://github.com/factden/mca-company-director-scraper)) - India MCA company master + directors' personal email & phone
+- [Justdial Business Leads Scraper](https://apify.com/factden/justdial-business-leads?fpr=factden) ([docs](https://github.com/factden/justdial-business-leads)) - Indian business leads (real phone, email, owner name & GST) from Justdial by city & category
+- [Indeed Jobs Scraper](https://apify.com/factden/indeed-jobs-scraper?fpr=factden) ([docs](https://github.com/factden/indeed-jobs-scraper)) - jobs, salaries & company data
 - [All FactDen actors →](https://apify.com/factden?fpr=factden)
 
 **Docs & guides:**
